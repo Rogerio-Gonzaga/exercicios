@@ -1,0 +1,5 @@
+nome=input('Me diga seu nome completo: ')
+nome2= nome.title()
+nome3=(nome2.find('Silva'))
+print('Tem a palavra Silva no seu nome: ', 'Silva' in nome2 , 'E está na posição: ' , nome3)
+print('Tem a palavra Silva no seu nome: {}' .format('Silva' in nome.title()))
